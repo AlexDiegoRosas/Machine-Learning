@@ -1,0 +1,38 @@
+{
+    "bolaml": {
+        "checkpoints": [
+            {
+                "steps": 499200,
+                "file_path": "results\\prueba01\\bolaml\\bolaml-499200.onnx",
+                "reward": 3.804166873296102,
+                "creation_time": 1698432546.7072082,
+                "auxillary_file_paths": [
+                    "results\\prueba01\\bolaml\\bolaml-499200.pt"
+                ]
+            },
+            {
+                "steps": 504000,
+                "file_path": "results\\prueba01\\bolaml\\bolaml-504000.onnx",
+                "reward": 0.6805558734469943,
+                "creation_time": 1698432546.8641362,
+                "auxillary_file_paths": [
+                    "results\\prueba01\\bolaml\\bolaml-504000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 504000,
+            "file_path": "results\\prueba01\\bolaml.onnx",
+            "reward": 0.6805558734469943,
+            "creation_time": 1698432546.8641362,
+            "auxillary_file_paths": [
+                "results\\prueba01\\bolaml\\bolaml-504000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu117"
+    }
+}
